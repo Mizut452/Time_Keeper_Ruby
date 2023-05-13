@@ -1,3 +1,4 @@
 Rails.application.routes.draw do
-  get '/top', to: 'layouts#home'
+  get '/top', to: 'top#top'
+  get '/goal', to: 'goal#goal'
 end
